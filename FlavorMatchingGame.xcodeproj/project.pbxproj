@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC8B595528217C8F008C157D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B595428217C8F008C157D /* AppDelegate.swift */; };
+		FC8B595728217C8F008C157D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B595628217C8F008C157D /* SceneDelegate.swift */; };
+		FC8B595928217C8F008C157D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B595828217C8F008C157D /* ViewController.swift */; };
+		FC8B595C28217C8F008C157D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8B595A28217C8F008C157D /* Main.storyboard */; };
+		FC8B595E28217C90008C157D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC8B595D28217C90008C157D /* Assets.xcassets */; };
+		FC8B596128217C90008C157D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8B595F28217C90008C157D /* LaunchScreen.storyboard */; };
+		FC8B596C28217C90008C157D /* FlavorMatchingGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B596B28217C90008C157D /* FlavorMatchingGameTests.swift */; };
+		FC8B597628217C90008C157D /* FlavorMatchingGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B597528217C90008C157D /* FlavorMatchingGameUITests.swift */; };
+		FC8B597828217C90008C157D /* FlavorMatchingGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B597728217C90008C157D /* FlavorMatchingGameUITestsLaunchTests.swift */; };
+		FC8B598528240DE0008C157D /* Playtime.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC8B598428240DCC008C157D /* Playtime.otf */; };
+		FC8B598628240DE2008C157D /* Playtime.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC8B598428240DCC008C157D /* Playtime.otf */; };
+		FC8B598728240DE2008C157D /* Playtime.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC8B598428240DCC008C157D /* Playtime.otf */; };
+		FC8B598928240F7B008C157D /* CroissantOne-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC8B598828240F7B008C157D /* CroissantOne-Regular.otf */; };
+		FC8B598A28240F7B008C157D /* CroissantOne-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC8B598828240F7B008C157D /* CroissantOne-Regular.otf */; };
+		FC8B598B28240F7B008C157D /* CroissantOne-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC8B598828240F7B008C157D /* CroissantOne-Regular.otf */; };
+		FC8B598D28240F8A008C157D /* BittersweetNF.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC8B598C28240F8A008C157D /* BittersweetNF.otf */; };
+		FC8B598E28240F8A008C157D /* BittersweetNF.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC8B598C28240F8A008C157D /* BittersweetNF.otf */; };
+		FC8B598F28240F8A008C157D /* BittersweetNF.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC8B598C28240F8A008C157D /* BittersweetNF.otf */; };
+		FC8B599128240F99008C157D /* Frenchpress freefont.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC8B599028240F99008C157D /* Frenchpress freefont.otf */; };
+		FC8B599228240F99008C157D /* Frenchpress freefont.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC8B599028240F99008C157D /* Frenchpress freefont.otf */; };
+		FC8B599328240F99008C157D /* Frenchpress freefont.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC8B599028240F99008C157D /* Frenchpress freefont.otf */; };
+		FC8B599528240FA6008C157D /* PeachesForBreakfast-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC8B599428240FA6008C157D /* PeachesForBreakfast-Regular.otf */; };
+		FC8B599628240FA6008C157D /* PeachesForBreakfast-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC8B599428240FA6008C157D /* PeachesForBreakfast-Regular.otf */; };
+		FC8B599728240FA6008C157D /* PeachesForBreakfast-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FC8B599428240FA6008C157D /* PeachesForBreakfast-Regular.otf */; };
+		FC8B599928241347008C157D /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B599828241347008C157D /* Trivia.swift */; };
+		FC8B599A28241347008C157D /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B599828241347008C157D /* Trivia.swift */; };
+		FC8B599B28241347008C157D /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B599828241347008C157D /* Trivia.swift */; };
+		FC8B599D2824183D008C157D /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B599C2824183D008C157D /* QuestionViewController.swift */; };
+		FC8B599E2824183D008C157D /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B599C2824183D008C157D /* QuestionViewController.swift */; };
+		FC8B599F2824183D008C157D /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B599C2824183D008C157D /* QuestionViewController.swift */; };
+		FC8B59A1282418FA008C157D /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B59A0282418FA008C157D /* ResultViewController.swift */; };
+		FC8B59A2282418FA008C157D /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B59A0282418FA008C157D /* ResultViewController.swift */; };
+		FC8B59A3282418FA008C157D /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8B59A0282418FA008C157D /* ResultViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC8B596828217C90008C157D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC8B594928217C8F008C157D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC8B595028217C8F008C157D;
+			remoteInfo = FlavorMatchingGame;
+		};
+		FC8B597228217C90008C157D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC8B594928217C8F008C157D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC8B595028217C8F008C157D;
+			remoteInfo = FlavorMatchingGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC8B595128217C8F008C157D /* FlavorMatchingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlavorMatchingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC8B595428217C8F008C157D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC8B595628217C8F008C157D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FC8B595828217C8F008C157D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC8B595B28217C8F008C157D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC8B595D28217C90008C157D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC8B596028217C90008C157D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC8B596228217C90008C157D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC8B596728217C90008C157D /* FlavorMatchingGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlavorMatchingGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC8B596B28217C90008C157D /* FlavorMatchingGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorMatchingGameTests.swift; sourceTree = "<group>"; };
+		FC8B597128217C90008C157D /* FlavorMatchingGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlavorMatchingGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC8B597528217C90008C157D /* FlavorMatchingGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorMatchingGameUITests.swift; sourceTree = "<group>"; };
+		FC8B597728217C90008C157D /* FlavorMatchingGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavorMatchingGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FC8B598428240DCC008C157D /* Playtime.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Playtime.otf; path = ../../../Downloads/playtime/Playtime.otf; sourceTree = "<group>"; };
+		FC8B598828240F7B008C157D /* CroissantOne-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "CroissantOne-Regular.otf"; path = "../../../Downloads/croissant-one/CroissantOne-Regular.otf"; sourceTree = "<group>"; };
+		FC8B598C28240F8A008C157D /* BittersweetNF.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = BittersweetNF.otf; path = ../../../Downloads/bittersweet/BittersweetNF.otf; sourceTree = "<group>"; };
+		FC8B599028240F99008C157D /* Frenchpress freefont.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Frenchpress freefont.otf"; path = "../../../Downloads/frenchpress/Frenchpress freefont.otf"; sourceTree = "<group>"; };
+		FC8B599428240FA6008C157D /* PeachesForBreakfast-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PeachesForBreakfast-Regular.otf"; path = "../../../Downloads/peaches-for-breakfast/PeachesForBreakfast-Regular.otf"; sourceTree = "<group>"; };
+		FC8B599828241347008C157D /* Trivia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
+		FC8B599C2824183D008C157D /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		FC8B59A0282418FA008C157D /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC8B594E28217C8F008C157D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8B596428217C90008C157D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8B596E28217C90008C157D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC8B594828217C8F008C157D = {
+			isa = PBXGroup;
+			children = (
+				FC8B595328217C8F008C157D /* FlavorMatchingGame */,
+				FC8B596A28217C90008C157D /* FlavorMatchingGameTests */,
+				FC8B597428217C90008C157D /* FlavorMatchingGameUITests */,
+				FC8B595228217C8F008C157D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC8B595228217C8F008C157D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC8B595128217C8F008C157D /* FlavorMatchingGame.app */,
+				FC8B596728217C90008C157D /* FlavorMatchingGameTests.xctest */,
+				FC8B597128217C90008C157D /* FlavorMatchingGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC8B595328217C8F008C157D /* FlavorMatchingGame */ = {
+			isa = PBXGroup;
+			children = (
+				FC8B595428217C8F008C157D /* AppDelegate.swift */,
+				FC8B595628217C8F008C157D /* SceneDelegate.swift */,
+				FC8B595828217C8F008C157D /* ViewController.swift */,
+				FC8B595A28217C8F008C157D /* Main.storyboard */,
+				FC8B599C2824183D008C157D /* QuestionViewController.swift */,
+				FC8B599828241347008C157D /* Trivia.swift */,
+				FC8B59A0282418FA008C157D /* ResultViewController.swift */,
+				FC8B595D28217C90008C157D /* Assets.xcassets */,
+				FC8B595F28217C90008C157D /* LaunchScreen.storyboard */,
+				FC8B598428240DCC008C157D /* Playtime.otf */,
+				FC8B598828240F7B008C157D /* CroissantOne-Regular.otf */,
+				FC8B598C28240F8A008C157D /* BittersweetNF.otf */,
+				FC8B599028240F99008C157D /* Frenchpress freefont.otf */,
+				FC8B599428240FA6008C157D /* PeachesForBreakfast-Regular.otf */,
+				FC8B596228217C90008C157D /* Info.plist */,
+			);
+			path = FlavorMatchingGame;
+			sourceTree = "<group>";
+		};
+		FC8B596A28217C90008C157D /* FlavorMatchingGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC8B596B28217C90008C157D /* FlavorMatchingGameTests.swift */,
+			);
+			path = FlavorMatchingGameTests;
+			sourceTree = "<group>";
+		};
+		FC8B597428217C90008C157D /* FlavorMatchingGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC8B597528217C90008C157D /* FlavorMatchingGameUITests.swift */,
+				FC8B597728217C90008C157D /* FlavorMatchingGameUITestsLaunchTests.swift */,
+			);
+			path = FlavorMatchingGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC8B595028217C8F008C157D /* FlavorMatchingGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC8B597B28217C90008C157D /* Build configuration list for PBXNativeTarget "FlavorMatchingGame" */;
+			buildPhases = (
+				FC8B594D28217C8F008C157D /* Sources */,
+				FC8B594E28217C8F008C157D /* Frameworks */,
+				FC8B594F28217C8F008C157D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlavorMatchingGame;
+			productName = FlavorMatchingGame;
+			productReference = FC8B595128217C8F008C157D /* FlavorMatchingGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC8B596628217C90008C157D /* FlavorMatchingGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC8B597E28217C90008C157D /* Build configuration list for PBXNativeTarget "FlavorMatchingGameTests" */;
+			buildPhases = (
+				FC8B596328217C90008C157D /* Sources */,
+				FC8B596428217C90008C157D /* Frameworks */,
+				FC8B596528217C90008C157D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC8B596928217C90008C157D /* PBXTargetDependency */,
+			);
+			name = FlavorMatchingGameTests;
+			productName = FlavorMatchingGameTests;
+			productReference = FC8B596728217C90008C157D /* FlavorMatchingGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC8B597028217C90008C157D /* FlavorMatchingGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC8B598128217C90008C157D /* Build configuration list for PBXNativeTarget "FlavorMatchingGameUITests" */;
+			buildPhases = (
+				FC8B596D28217C90008C157D /* Sources */,
+				FC8B596E28217C90008C157D /* Frameworks */,
+				FC8B596F28217C90008C157D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC8B597328217C90008C157D /* PBXTargetDependency */,
+			);
+			name = FlavorMatchingGameUITests;
+			productName = FlavorMatchingGameUITests;
+			productReference = FC8B597128217C90008C157D /* FlavorMatchingGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC8B594928217C8F008C157D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					FC8B595028217C8F008C157D = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					FC8B596628217C90008C157D = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = FC8B595028217C8F008C157D;
+					};
+					FC8B597028217C90008C157D = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = FC8B595028217C8F008C157D;
+					};
+				};
+			};
+			buildConfigurationList = FC8B594C28217C8F008C157D /* Build configuration list for PBXProject "FlavorMatchingGame" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC8B594828217C8F008C157D;
+			productRefGroup = FC8B595228217C8F008C157D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC8B595028217C8F008C157D /* FlavorMatchingGame */,
+				FC8B596628217C90008C157D /* FlavorMatchingGameTests */,
+				FC8B597028217C90008C157D /* FlavorMatchingGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC8B594F28217C8F008C157D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8B599528240FA6008C157D /* PeachesForBreakfast-Regular.otf in Resources */,
+				FC8B598928240F7B008C157D /* CroissantOne-Regular.otf in Resources */,
+				FC8B598528240DE0008C157D /* Playtime.otf in Resources */,
+				FC8B596128217C90008C157D /* LaunchScreen.storyboard in Resources */,
+				FC8B599128240F99008C157D /* Frenchpress freefont.otf in Resources */,
+				FC8B595E28217C90008C157D /* Assets.xcassets in Resources */,
+				FC8B598D28240F8A008C157D /* BittersweetNF.otf in Resources */,
+				FC8B595C28217C8F008C157D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8B596528217C90008C157D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8B598A28240F7B008C157D /* CroissantOne-Regular.otf in Resources */,
+				FC8B598E28240F8A008C157D /* BittersweetNF.otf in Resources */,
+				FC8B599628240FA6008C157D /* PeachesForBreakfast-Regular.otf in Resources */,
+				FC8B598628240DE2008C157D /* Playtime.otf in Resources */,
+				FC8B599228240F99008C157D /* Frenchpress freefont.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8B596F28217C90008C157D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8B598B28240F7B008C157D /* CroissantOne-Regular.otf in Resources */,
+				FC8B598F28240F8A008C157D /* BittersweetNF.otf in Resources */,
+				FC8B599728240FA6008C157D /* PeachesForBreakfast-Regular.otf in Resources */,
+				FC8B598728240DE2008C157D /* Playtime.otf in Resources */,
+				FC8B599328240F99008C157D /* Frenchpress freefont.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC8B594D28217C8F008C157D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8B595928217C8F008C157D /* ViewController.swift in Sources */,
+				FC8B599D2824183D008C157D /* QuestionViewController.swift in Sources */,
+				FC8B595528217C8F008C157D /* AppDelegate.swift in Sources */,
+				FC8B599928241347008C157D /* Trivia.swift in Sources */,
+				FC8B595728217C8F008C157D /* SceneDelegate.swift in Sources */,
+				FC8B59A1282418FA008C157D /* ResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8B596328217C90008C157D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8B599A28241347008C157D /* Trivia.swift in Sources */,
+				FC8B596C28217C90008C157D /* FlavorMatchingGameTests.swift in Sources */,
+				FC8B599E2824183D008C157D /* QuestionViewController.swift in Sources */,
+				FC8B59A2282418FA008C157D /* ResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC8B596D28217C90008C157D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8B59A3282418FA008C157D /* ResultViewController.swift in Sources */,
+				FC8B597628217C90008C157D /* FlavorMatchingGameUITests.swift in Sources */,
+				FC8B599B28241347008C157D /* Trivia.swift in Sources */,
+				FC8B599F2824183D008C157D /* QuestionViewController.swift in Sources */,
+				FC8B597828217C90008C157D /* FlavorMatchingGameUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC8B596928217C90008C157D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC8B595028217C8F008C157D /* FlavorMatchingGame */;
+			targetProxy = FC8B596828217C90008C157D /* PBXContainerItemProxy */;
+		};
+		FC8B597328217C90008C157D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC8B595028217C8F008C157D /* FlavorMatchingGame */;
+			targetProxy = FC8B597228217C90008C157D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC8B595A28217C8F008C157D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC8B595B28217C8F008C157D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC8B595F28217C90008C157D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC8B596028217C90008C157D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC8B597928217C90008C157D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC8B597A28217C90008C157D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC8B597C28217C90008C157D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZRJ72D9952;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlavorMatchingGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shreya.FlavorMatchingGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC8B597D28217C90008C157D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZRJ72D9952;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlavorMatchingGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shreya.FlavorMatchingGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC8B597F28217C90008C157D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZRJ72D9952;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shreya.FlavorMatchingGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlavorMatchingGame.app/FlavorMatchingGame";
+			};
+			name = Debug;
+		};
+		FC8B598028217C90008C157D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZRJ72D9952;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shreya.FlavorMatchingGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlavorMatchingGame.app/FlavorMatchingGame";
+			};
+			name = Release;
+		};
+		FC8B598228217C90008C157D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZRJ72D9952;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shreya.FlavorMatchingGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlavorMatchingGame;
+			};
+			name = Debug;
+		};
+		FC8B598328217C90008C157D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZRJ72D9952;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shreya.FlavorMatchingGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlavorMatchingGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC8B594C28217C8F008C157D /* Build configuration list for PBXProject "FlavorMatchingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8B597928217C90008C157D /* Debug */,
+				FC8B597A28217C90008C157D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC8B597B28217C90008C157D /* Build configuration list for PBXNativeTarget "FlavorMatchingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8B597C28217C90008C157D /* Debug */,
+				FC8B597D28217C90008C157D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC8B597E28217C90008C157D /* Build configuration list for PBXNativeTarget "FlavorMatchingGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8B597F28217C90008C157D /* Debug */,
+				FC8B598028217C90008C157D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC8B598128217C90008C157D /* Build configuration list for PBXNativeTarget "FlavorMatchingGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8B598228217C90008C157D /* Debug */,
+				FC8B598328217C90008C157D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC8B594928217C8F008C157D /* Project object */;
+}
